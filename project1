@@ -1,0 +1,5 @@
+arr = np.array([[1, 2, 3], [7, 8, 9]])
+
+newarr = arr.reshape(-1)
+
+print(newarr)  # [1 2 3 7 8 9]
